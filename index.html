@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Barra de Navegación -->
+    <header class="bg-slate-800 text-white shadow-lg">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Nombre a la izquierda -->
+            <div class="text-2xl font-bold">
+                <a href="#">Tu Nombre</a>
+            </div>
+            <!-- Enlaces de navegación a la derecha -->
+            <ul class="flex space-x-6">
+                <li><a href="#servicios" class="hover:text-indigo-400 transition duration-300">Servicios</a></li>
+                <li><a href="#sobre-mi" class="hover:text-indigo-400 transition duration-300">Sobre mí</a></li>
+                <li><a href="#contacto" class="hover:text-indigo-400 transition duration-300">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero Principal -->
+    <main class="bg-slate-900 text-white">
+        <section class="container mx-auto px-6 py-24 text-center">
+            <!-- Título Principal -->
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                Desarrollo Web y Soluciones con IA
+            </h1>
+            <!-- Párrafo Descriptivo -->
+            <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8">
+                Transformo ideas en aplicaciones web robustas, escalables e inteligentes. Especializado en crear experiencias de usuario excepcionales y soluciones impulsadas por Inteligencia Artificial.
+            </p>
+            <!-- Botón de Llamada a la Acción (CTA) -->
+            <a href="#contacto" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 inline-block">
+                Contáctame
+            </a>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section id="servicios" class="py-20">
+            <div class="container mx-auto px-6">
+                <!-- Título de la sección -->
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                    Servicios Tecnológicos a tu Medida
+                </h2>
+
+                <!-- Contenedor de las tarjetas (Grid) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <!-- Tarjeta 1: Desarrollo Web -->
+                    <div class="bg-slate-800 rounded-lg border border-slate-700 p-8 text-center transition-all duration-300 hover:scale-105 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/20">
+                        <!-- Ícono Placeholder -->
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-12 h-12 text-indigo-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m3 2.25-3 2.25M16.5 7.5l-3 2.25 3 2.25m-3 2.25 3 2.25M9 17.25l6-10.5" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Desarrollo Web Moderno</h3>
+                        <p class="text-slate-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+
+                    <!-- Tarjeta 2: Soluciones con IA -->
+                    <div class="bg-slate-800 rounded-lg border border-slate-700 p-8 text-center transition-all duration-300 hover:scale-105 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/20">
+                        <!-- Ícono Placeholder -->
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-12 h-12 text-indigo-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V8.25a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 8.25v7.5a2.25 2.25 0 0 0 2.25 2.25Z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Soluciones con IA</h3>
+                        <p class="text-slate-400">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <!-- Tarjeta 3: Optimización y SEO -->
+                    <div class="bg-slate-800 rounded-lg border border-slate-700 p-8 text-center transition-all duration-300 hover:scale-105 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/20">
+                        <!-- Ícono Placeholder -->
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-12 h-12 text-indigo-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Optimización y SEO</h3>
+                        <p class="text-slate-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="bg-slate-800 py-20">
+            <div class="container mx-auto px-6">
+                <!-- Título de la sección -->
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                    ¿Quién Soy?
+                </h2>
+
+                <!-- Contenedor Grid (2 columnas en large, 1 en mobile) -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    
+                    <!-- Columna Izquierda: Foto Placeholder -->
+                    <div class="w-full max-w-sm mx-auto lg:mx-0">
+                     <div class="bg-slate-700 rounded-lg border-2 border-slate-600 p-4 shadow-lg">
+    <img class="block rounded-lg object-cover w-full" src="./assets/IMG_20250713_161128.jpg" alt="Foto profesional de [Tu Nombre]">
+</div>   
+                    </div>
+
+                    <!-- Columna Derecha: Texto -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-400 mb-4">
+                            Apasionado por la Tecnología y la Innovación
+                        </h3>
+                        <p class="text-slate-300 mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. Vivamus ut quam quis quam tincidunt fringilla.
+                        </p>
+                        <p class="text-slate-300 mb-6">
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur et lacus eget est ullamcorper sollicitudin. Proin sit amet nisi eu odio lacinia laoreet.
+                        </p>
+                        <h4 class="text-xl font-bold mb-3">Mis Habilidades Principales</h4>
+                        <ul class="list-disc list-inside text-slate-300 space-y-2">
+                            <li><span class="font-medium text-white">Desarrollo Frontend:</span> React, Next.js, Tailwind CSS</li>
+                            <li><span class="font-medium text-white">Backend y Bases de Datos:</span> Node.js, Python, SQL, NoSQL</li>
+                            <li><span class="font-medium text-white">Machine Learning:</span> Scikit-learn, TensorFlow, PyTorch</li>
+                            <li><span class="font-medium text-white">DevOps:</span> Docker, CI/CD, Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="bg-slate-900 py-20">
+            <div class="container mx-auto px-6">
+                <!-- Título de la sección -->
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                    Hablemos de tu Proyecto
+                </h2>
+
+                <!-- Formulario de Contacto -->
+                <form action="https://formspree.io/f/xpwydene" method="POST" class="max-w-xl mx-auto">
+                    <div class="space-y-6">
+                        <!-- Campo Nombre -->
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-slate-300 mb-2">Nombre</label>
+                            <input type="text" name="name" id="name" required class="w-full bg-slate-800 border border-slate-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition">
+                        </div>
+
+                        <!-- Campo Correo Electrónico -->
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-slate-300 mb-2">Correo Electrónico</label>
+                            <input type="email" name="email" id="email" required class="w-full bg-slate-800 border border-slate-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition">
+                        </div>
+
+                        <!-- Campo Mensaje -->
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-slate-300 mb-2">Mensaje</label>
+                            <textarea name="message" id="message" rows="5" required class="w-full bg-slate-800 border border-slate-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"></textarea>
+                        </div>
+
+                        <!-- Botón de Envío -->
+                        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-md transition duration-300 text-lg">
+                            Enviar Mensaje
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <!-- Copyright -->
+                <p class="text-slate-400 text-sm mb-4 md:mb-0">
+                    © 2025 Tu Nombre Completo. Todos los derechos reservados.
+                </p>
+
+                <!-- Enlaces a Redes Sociales -->
+                <div class="flex space-x-6">
+                    <a href="#" class="text-slate-400 hover:text-white transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.838 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-slate-400 hover:text-white transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-slate-400 hover:text-white transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
